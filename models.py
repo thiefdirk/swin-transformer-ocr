@@ -9,6 +9,8 @@ from timm.models.swin_transformer import SwinTransformer
 
 import utils
 
+# python C:/swin-transformer-ocr/run.py --version 0 --setting C:/swin-transformer-ocr/settings/default.yaml --num_workers 16 --batch_size 128
+
 class SwinTransformerOCR(pl.LightningModule):
     def __init__(self, cfg, tokenizer):
         super().__init__()

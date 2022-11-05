@@ -1,9 +1,9 @@
 # Input/Output/Name
-image_dir: "dataset/images"
-train_data: "dataset/train.txt"
-val_data: "dataset/val.txt"
-tokenizer: "dataset/tokenizer.pkl"
-save_path: "checkpoints"
+image_dir: "C:/swin-transformer-ocr/dataset/preprocessed_image"
+train_data: "C:/swin-transformer-ocr/dataset/train.txt"
+val_data: "C:/swin-transformer-ocr/dataset/val.txt"
+tokenizer: "C:/swin-transformer-ocr/dataset/tokenizer.pkl"
+save_path: "C:/swin-transformer-ocr/checkpoints/"
 name: "transformer-ocr test"
 
 epochs: 20
@@ -22,8 +22,8 @@ scheduler_param:
   gamma: 0.707
 
 # Parameters for model architectures
-width: 448
-height: 112
+width: 294
+height: 133
 channels: 3
 
 # Encoder
